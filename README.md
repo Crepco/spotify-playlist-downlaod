@@ -44,8 +44,8 @@ The project consists of a **Python backend** and a **JavaScript frontend**.
 
 ### 2️⃣ Clone the Repository
 ```bash
-git clone <repository-url>
-cd <repository-folder>
+git clone https://github.com/Crepco/spotify-playlist-downlaod
+cd spotify-playlist-downlaod
 ```
 
 ---
