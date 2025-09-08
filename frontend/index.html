@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify → YouTube Converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🎵 Spotify → YouTube Converter</h1>
+    
+    <div class="input-section">
+      <div class="input-group">
+        <input type="text" id="playlistUrl" placeholder="Enter Spotify Playlist URL (e.g., https://open.spotify.com/playlist/...)">
+        <button class="fetch-btn" onclick="fetchSongs()">Fetch Songs</button>
+      </div>
+    </div>
+
+    <div id="results"></div>
+  </div>
+
+  <!-- Floating particles background -->
+  <div class="particles"></div>
+  
+  <!-- Audio visualizer bars -->
+  <div class="audio-bars">
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
