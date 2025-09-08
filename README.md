@@ -38,28 +38,14 @@ The project consists of a **Python backend** and a **JavaScript frontend**.
 ### 1️⃣ Prerequisites
 - Python **3.7+**
 - [pip](https://pip.pypa.io/en/stable/installation/) (Python package manager)
-- [ffmpeg](https://ffmpeg.org/download.html) (Required for yt-dlp postprocessing)
 
-> ⚠️ Without `ffmpeg`, downloads will fail with:  
-> `Postprocessing: ffprobe and ffmpeg not found`
-
-#### Installing ffmpeg
-- **Windows**: Download [FFmpeg Builds](https://www.gyan.dev/ffmpeg/builds/), extract, and add `C:\ffmpeg\bin` to your PATH.  
-- **Linux (Debian/Ubuntu)**:  
-  ```bash
-  sudo apt update && sudo apt install ffmpeg -y
-  ```
-- **macOS (Homebrew)**:  
-  ```bash
-  brew install ffmpeg
-  ```
 
 ---
 
 ### 2️⃣ Clone the Repository
 ```bash
-git clone <repository-url>
-cd <repository-folder>
+git clone https://github.com/Crepco/spotify-playlist-downlaod
+cd spotify-playlist-downlaod
 ```
 
 ---
