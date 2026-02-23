@@ -10,7 +10,7 @@ from spotify_handler import get_playlist_tracks
 from youtube_handler import search_youtube, download_audio
 
 app = Flask(__name__)
-CORS(app)
+CORS(app) 
 
 
 @app.route("/fetch", methods=["POST"])
